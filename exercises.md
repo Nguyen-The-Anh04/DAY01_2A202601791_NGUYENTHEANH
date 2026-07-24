@@ -3,8 +3,8 @@
 
 **Thời lượng:** 9h00–13h00
 **Cách làm:** Trả lời từng câu ngay sau khi hoàn thành block tương ứng —
-đừng để dồn hết về cuối buổi. Thay dòng `*Câu trả lời của bạn*` bằng câu
-trả lời thật (chấm tự động sẽ đếm số câu đã trả lời).
+đừng để dồn hết về cuối buổi. Thay phần placeholder bằng câu trả lời thật
+(chấm tự động sẽ đếm số câu đã trả lời).
 
 ---
 
@@ -14,7 +14,6 @@ trả lời thật (chấm tự động sẽ đếm số câu đã trả lời).
 Gọi `call_openai` với temperature 0.0, 0.5, 1.0 và 1.5 dùng prompt
 **"Hãy kể cho tôi một sự thật thú vị về Việt Nam."**
 > Temperature 0.0: Hang Sơn Đòong ở tỉnh Quảng Bình là hang đỘng tự nhiên lớn nhất thế giới và thể tích. Trong hang có sông ngầm, rừng nhiệt đới và đám mây bên trong lòng hang.
-
 
 **Bạn nhận thấy quy luật gì qua bốn phản hồi?** (2–3 câu)
 > Khi temperature thấp (0.0), mô hình trả lời rất nhất quán, tập trung vào sự thật phổ biến và có cấu trúc rõ ràng. Ở temperature 0.5, câu trả lời vẫn chính xác nhưng có thêm chi tiết mô tả sinh động hơn. Khi temperature tăng lên 1.0 và 1.5, mô hình trở nên sáng tạo hơn, đôi khi đưa ra những sự thật ít phổ biến hoặc diễn đạt theo cách bất ngờ, nhưng cũng có nguy cơ lan man hoặc sai lệch khỏi chủ đề.
